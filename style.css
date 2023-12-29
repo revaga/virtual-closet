@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url("bg.png");
+}
+
+div.starting {
+			display: none;
+		}
+
+div.shirt {
+  position: absolute;
+  background-image: url(shirt1.png);
+  background-size: 50px 50px;
+  top: 230;
+  display: none;
+}
+
+div.base{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(shirt1.png);
+  background-size: 50px 50px;
+  top: 100px;
+}
+
+
+div.shirtbutton {
+  position: absolute;
+  top: 400px;
+  right: 300px;
+  border: 3px solid #fdd92d;
+  background-color: #fdd92d;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 4px;
+}
+
+div.shirtbutton:hover {
+      background-color:#B69B0D;
+      border:2px solid #ebd459;
+      padding: 4px;
+      transition: 0.2s;
+  }
+div.basebutton:hover {
+      background-color:#B69B0D;
+      border:2px solid #ebd459;
+      padding: 4px;
+      transition: 0.2s;
+  }
+div.shoebutton:hover {
+      background-color:#B69B0D;
+      border:2px solid #ebd459;
+      padding: 4px;
+      transition: 0.2s;
+  }
+div.dressbutton:hover {
+      background-color:#B69B0D;
+      border:2px solid #ebd459;
+      padding: 4px;
+      transition: 0.2s;
+  }
+div.accessorybutton:hover {
+      background-color:#B69B0D;
+      border:2px solid #ebd459;
+      padding: 4px;
+      transition: 0.2s;
+  }
+
+div.basebutton{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  border: 3px solid #fdd92d;
+  background-color: #fdd92d;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 4px;
+}
+
+div.shoebutton{
+  position: absolute;
+  top: 700px;
+  left: 400px;
+  border: 3px solid #fdd92d;
+  background-color: #fdd92d;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 4px;
+}
+
+div.dressbutton{
+  position: absolute;
+  top: 600px;
+  right: 300px;
+  border: 3px solid #fdd92d;
+  background-color: #fdd92d;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 4px;
+}
+
+div.accessorybutton{
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  border: 3px solid #fdd92d;
+  background-color: #fdd92d;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 4px;
+}
+
+
+div.under{
+  position: absolute;
+  top: 180px;
+  left: 375px;
+}
